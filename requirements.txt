@@ -2,3 +2,4 @@ Django==4.2.15
 gunicorn==20.1.0
 psycopg2-binary==2.9.5
 alabaster==0.7.12
+alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
