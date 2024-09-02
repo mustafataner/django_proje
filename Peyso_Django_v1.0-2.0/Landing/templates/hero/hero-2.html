@@ -1,0 +1,33 @@
+{% load static %}
+{% block hero %}
+    <!-- Hero section Start -->
+    <section class="hero-2 position-relative" id="home">
+        <div class="hero-2-overlay"></div>
+        <div class="container">
+            <div class="row hero-2-content align-items-center">
+                <div class="col-lg-5 col-md-5">
+                    <div class="hero-2-img">
+                        <img class="img-fluid" src="{% static 'images/hero-2-img.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-5 offset-md-1">
+                    <h5 class="home-small-title text-primary mt-lg-0 mt-4">Grow More</h5>
+                    <h1 class="hero-2-title mb-lg-4 mb-2">Powering Business Everywhere</h1>
+                    <p class="mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium upto doloremque amet dolor sit amet.</p>
+                    <a href="#" class="btn btn-info">Learn more<i class="mdi mdi-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hero-2-bottom">
+                    <img class="img-fluid" src="{% static 'images/hero-2-bottom.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section End -->
+
+{% endblock hero %}

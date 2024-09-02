@@ -1,0 +1,20 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+
+{% block navclass %}
+<nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+{% endblock navclass %}
+
+{% block hero %}
+    {% include "hero/hero-6.html" %}
+{% endblock hero %}
+
+
+{% block extra_js %}
+
+    <!-- particles -->
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/particles.app.js' %}"></script>
+
+{% endblock extra_js %}

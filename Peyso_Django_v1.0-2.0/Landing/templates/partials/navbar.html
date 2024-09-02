@@ -1,0 +1,40 @@
+{% load static %}
+{% block navbar %}
+ <!--Navbar Start-->
+
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="{% static 'images/logo-light.png' %}" alt="" class="logo-light" height="30" />
+            <img src="{% static 'images/logo-dark.png' %}" alt="" class="logo-dark" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" id="scrollElement">WebArtTech</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Neden Biz</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#clients" class="nav-link">Müşteri</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Fiyatlandırma</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">İletişim</a>
+                </li>
+            </ul>
+            <a href="https://api.whatsapp.com/send?phone=905418263721&text=Merhaba size nasıl yardımcı olabilirim" class="btn btn-info btn-sm navbar-btn my-lg-0 my-2">İletişime Geç!</a>
+
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+{% endblock navbar %}

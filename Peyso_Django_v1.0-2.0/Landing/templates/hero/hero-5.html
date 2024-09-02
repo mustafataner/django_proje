@@ -1,0 +1,25 @@
+{% load static %}
+{% block hero %}
+    <!-- Hero section Start -->
+    <section class="hero-5 bg-light position-relative" id="home">
+        <h1 class="hero-5-title-bg fw-bold d-none d-lg-block">CREATIVE</h1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="hero-5-content">
+                        <h5 class="text-primary mb-3">Track your productivity !</h5>
+                        <h2 class="hero-5-title fw-normal mb-4">Your Unified Solution <br> for Security and Performance</h2>
+                        <a href="#" class="btn btn-info">Contact Us</a>
+                        <a href="#" class="btn btn-outline-info ms-1">Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" src="{% static 'images/hero-5-img.png' %}" alt="">
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- Hero section End -->
+{% endblock hero %}

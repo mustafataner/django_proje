@@ -1,0 +1,16 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+
+{% block navclass %}
+<nav class="navbar navbar-expand-lg fixed-top sticky navbar-light" id="navbar">
+{% endblock navclass %}
+
+
+{% block navbar %}
+    {% include "partials/navbar.html" %}
+{% endblock navbar %}
+
+{% block hero %}
+    {% include "hero/hero-2.html" %}
+{% endblock hero %}

@@ -1,0 +1,35 @@
+{% load static %}
+{% block hero %}
+ <!-- Hero section Start -->
+ <section class="hero-1 bg-primary" id="home">
+    <!-- bg-overlay-img -->
+    <div class="bg-overlay overflow-hidden bg-transparent">
+        <div class="hero-1-bg"></div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="hero-wrapper text-white-50 text-center">
+                    <h5 class="text-white-50 home-small-title">Web Art Tech</h5>
+                    <h1 class="hero-1-title display-4 text-white mb-4">Siz Hayal edin biz kodlayalım!</h1>
+
+                    <p class="mb-4">Özel yazılım çözümleri ve çarpıcı web tasarımlarıyla işinizi bir adım öne taşıyoruz</p>
+
+                    <div class="pt-2">
+                        <a href="https://api.whatsapp.com/send?phone=905418263721&text=Merhaba size nasıl yardımcı olabilirim" class="btn btn-light me-2">İletişime Geç!</a>
+                        <a href="https://api.whatsapp.com/send?phone=905418263721&text=Merhaba size nasıl yardımcı olabilirim" class="btn btn-info">Daha Fazla <i class="mdi mdi-arrow-right ms-1"></i></a>
+                    </div>
+
+                    <div class="home-img mt-5">
+                        <img src="{% static 'images/home-img.png' %}" alt="" class="img-fluid mx-auto d-block" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- Hero section End -->
+{% endblock hero %}
