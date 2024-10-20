@@ -1,1 +1,1 @@
-web: gunicorn Peyso_Django_v1.0-2.0.wsgi --log-file -
+web: gunicorn Landing.wsgi --log-file -
