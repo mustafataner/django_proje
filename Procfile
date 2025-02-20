@@ -1,1 +1,1 @@
-web: gunicorn Landing.peyso.wsgi --log-file -
+web: gunicorn peyso.wsgi:application --log-file -
